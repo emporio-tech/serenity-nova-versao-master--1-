@@ -144,7 +144,7 @@ a:hover {
 }
 
 .grid {
-  
+ 
   text-align: center;
   padding: 12px;
   width: 40vw;
@@ -157,6 +157,115 @@ a:hover {
   border: 3px solid var(--color1);
 }
 
+/************************** massagens page **********/
+#main_massagens {
+  margin-top: 5rem;
+}
+.type-massagem{
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 2.5rem;
+}
+.massagens-h1 {
+  font-size: 4rem;
+}
+
+.massagens-p{
+  font-size: 2rem;
+  text-align: center;
+  line-height: 3rem;
+}
+.massagem-img{
+  width: 90%;
+  border: 8px solid var(--color1);
+}
+.valores-massagem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+  
+}
+
+.valores-h2{
+  font-size: 6rem;
+}
+.valores-h3 {
+  font-size: 4rem;
+}
+.valores {
+  display: flex;
+  gap: 50px;
+  
+}
+.valores-box {
+  border: solid 1px var(--color1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20vw;
+}
+.valores-tempo {
+  background: var(--color1);
+  color: var(--color3);
+  width: 100%;
+  padding: .5rem;
+  text-align: center;
+  font-size: 3rem;
+}
+.valores-din {
+  
+  width: 100%;
+  padding: .5rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.cartoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+.bandeira-crt{
+  width: 30%;
+}
+.cartoes-crt{
+  font-size: 1rem;
+}
+
+.container-massagem {
+  padding-top: 2rem;
+  background-color: var(--color1);
+  border: var(--border);
+  height: 500px;
+}
+.container-massagem-h2{
+  color: var(--color2);
+  background-color: var(--color1);
+  font-size: 5rem;
+  text-align: center;
+}
+.container-massagem-p{
+  padding-top: 40px;
+  color: var(--color2);
+  background-color: var(--color1);
+  font-size: 4rem;
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+}
+strong{
+  font-weight: 900;
+  background-color: var(--color1);
+}
 /***************************************/
 /*************** start footer**************/
 #footer-section{
